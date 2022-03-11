@@ -1,0 +1,32 @@
+#QUESTION 1
+
+#a 
+def oddsum(n):
+    so=0
+    print('Odd terms')
+    for i in range (1,2*n+1,2):
+        print(i,end='\t')
+        so+=i
+    print('\nSum of odd terms=',so)
+    
+#b
+def evensum(n):
+    se=0
+    print('Even terms')
+    for i in range (2,2*n+1,2):
+        print(i,end='\t')
+        se+=i
+    print('\nSum of even terms=',se)
+    
+n=int(input('How many terms:'))
+oddsum(n)
+
+evensum(n)
+
+#c
+s=0
+n=int(input("enter limit: "))
+for i in range(1,n+1):
+    s+=i
+print("the sum is ",s)
+
